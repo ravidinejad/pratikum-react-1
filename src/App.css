@@ -32,7 +32,130 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.gambar1 {
+  display: flex;
+  align-items: center;
+}
+
+.sila1 {
+  float: right;
+  margin-right: 1200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.title {
+  padding-top: 12px;
+  text-align: center;
+  font-size: large;
+  font-weight: 700px;
+  font-weight: bold;
+}
+
+.head-text {
+  position: relative;
+  padding-left: 10px;
+  ;
+}
+
+.text-on-image {
+  position: absolute;
+  left: 26%;
+  top: 20%;
+
+}
+
+.button-merah {
+  background-color: #e52d1c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efek Hover Tombol Merah */
+.button-merah:hover {
+  background-color: #ff453a;
+  box-shadow: 0 0 10px rgba(229, 45, 28, 0.7);
+  color: #ffffff;
+}
+
+.button-kuning {
+  background-color: #fbd71b;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-kuning:hover {
+  background-color: #f0e630;
+  box-shadow: 0 0 10px rgba(255, 251, 0, 0.7);
+  color: black;
+}
+
+.button-hijau {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-hijau:hover {
+  opacity: 0.7;
+
+
+}
+
+.button-putih {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-putih:hover {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(71, 78, 72, 0.7);
+  color: black;
+}
+
+.button-hitam {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-hitam:hover {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(71, 78, 72, 0.7);
+  color: black;
+}
+
+.button-hijau,
+.button-hitam,
+.button-kuning,
+.button-merah,
+.button-putih {
+  margin-right: 8px;
+  border-radius: 6px;
 }

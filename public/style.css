@@ -1,0 +1,16 @@
+.app-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pancasila-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .media-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  

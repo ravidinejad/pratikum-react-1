@@ -1,0 +1,65 @@
+
+body {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); /* Ubah warna latar belakang sesuai keinginan */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 8%; 
+}
+
+.logo {
+  color: #fafafa;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: blueviolet;
+  transition: 0.4s;
+}
+
+.btn {
+  background: blueviolet;
+  color: #fafafa;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+span{
+  color:blueviolet;
+}
+

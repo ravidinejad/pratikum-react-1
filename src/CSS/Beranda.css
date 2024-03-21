@@ -1,0 +1,31 @@
+/* Beranda.css */
+
+.logo-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sesuaikan dengan kebutuhan tinggi layar */
+    background-color: black;
+    
+  }
+  
+  .logo-container1 img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .logo-container1 img {
+    opacity: 0;
+    transform: scale(0.5);
+    animation: zoomInAnimation 1s ease forwards;
+  }
+  
+  @keyframes zoomInAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }  

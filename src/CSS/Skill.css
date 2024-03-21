@@ -1,0 +1,64 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white; /* Set the text color to white for better visibility */
+}
+
+.skill {
+  padding: 20px; /* Ganti padding ke ukuran yang lebih sesuai */
+  text-align: center; /* Center text inside .skill */
+}
+
+.skill-text h2 {
+  margin: 30px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column; /* Ganti ke flex-direction: column agar elemen-elemen dapat terpusat secara vertikal */
+  justify-content: center;
+  align-items: center; /* Center secara horizontal dan vertikal */
+}
+
+.image-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 570px;
+}
+
+.image-container1 img {
+  margin: 0 20px; /* Sesuaikan margin jika diperlukan */
+  max-width: 100%;
+  height: auto;
+  
+}
+
+/* Optional: Jika ingin memberikan lebar maksimum pada container gambar */
+.image-container1 {
+  max-width: 150%; /* Sesuaikan lebar maksimum container gambar */
+  width: 150%;
+  height: 50%; /* Sesuaikan tinggi container gambar */
+}
+
+.image-contaner1 ,img , h2{
+  opacity: 0;
+  transform: scale(0.5);
+  animation: zoomInAnimation 1s ease forwards;
+}
+
+@keyframes zoomInAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}  
